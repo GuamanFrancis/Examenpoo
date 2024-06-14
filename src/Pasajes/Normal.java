@@ -1,11 +1,11 @@
 package Pasajes;
 
-public class Normal extends Tickets {
+public class Normal extends Rutas {
     private double CostoBase;
 
 
-    public Normal( int IDticket, String Fecha , String Nombredelautobus, double CostoBase ){
-        super(IDticket,  Fecha ,  Nombredelautobus);
+    public Normal( int IDticket, String Fecha , String Nombredelautobus, double CostoBase, String Nombre, int Edad, int Cedula ){
+        super(IDticket,  Fecha ,  Nombredelautobus,  Nombre,  Edad,  Cedula);
         this.CostoBase=CostoBase;
 
 

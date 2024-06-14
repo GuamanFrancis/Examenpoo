@@ -6,8 +6,11 @@ public class Pasajeros extends Tickets{
     private int Cedula;
 
 
-    public Pasajeros(int IDticket, String Fecha , String Nombredelautobus){
+    public Pasajeros(int IDticket, String Fecha , String Nombredelautobus, String Nombre, int Edad, int Cedula){
         super(IDticket,  Fecha ,  Nombredelautobus);
+        this.Nombre=Nombre;
+        this.Edad=Edad;
+        this.Cedula=Cedula;
 
     }
 
